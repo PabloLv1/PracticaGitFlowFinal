@@ -44,9 +44,10 @@ namespace App
             this.TxtResultado.AutoSize = true;
             this.TxtResultado.Location = new System.Drawing.Point(429, 177);
             this.TxtResultado.Name = "TxtResultado";
-            this.TxtResultado.Size = new System.Drawing.Size(38, 15);
+            this.TxtResultado.Size = new System.Drawing.Size(12, 15);
             this.TxtResultado.TabIndex = 15;
-            this.TxtResultado.Text = "label3";
+            this.TxtResultado.Text = "?";
+            this.TxtResultado.Click += new System.EventHandler(this.TxtResultado_Click);
             // 
             // TxtTitulo2
             // 
@@ -93,6 +94,7 @@ namespace App
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(78, 23);
             this.textBox1.TabIndex = 9;
+            this.textBox1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox1_KeyPress);
             // 
             // button1
             // 
