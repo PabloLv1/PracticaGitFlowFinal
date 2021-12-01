@@ -4,7 +4,7 @@ namespace App
     partial class Form1
     {
         /// <summary>
-        ///  Required designer variable.
+        ///  JosePablo_B98315
         /// </summary>
         private System.ComponentModel.IContainer components = null;
 
